@@ -3,6 +3,7 @@ import Header from '../../components/Header/Header'
 import Footer from '../../components/Footer/Footer'
 import Backtotop from '../../components/BacktoTop/Backtotop'
 import c from "./Home.module.scss"
+import Main from '../../components/Main/Main'
 const Home = () => {
   const [isbacktotop, setIsbacktotop] = useState(false)
   useEffect(() => {
@@ -18,7 +19,7 @@ const Home = () => {
   return (
     <div className={c.Home}>
       <Header />
-    
+      <Main/>
       {isbacktotop && (<Backtotop />)}
       <Footer />
     </div>

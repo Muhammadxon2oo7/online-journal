@@ -6,8 +6,9 @@ import {FaApple} from "react-icons/fa"
 const Login = () => {
   return (
     <div className={c.login__wrapper}>
+        
         <div className={c.login__logo__wrapper}>
-            <img src={logo} alt="" />
+            <a href="/"><img src={logo} alt="" /></a>
         </div>
         <div className={c.login__form__wrapper}>
             <div className={c.login__title}>

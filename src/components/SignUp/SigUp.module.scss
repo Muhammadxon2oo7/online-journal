@@ -7,13 +7,12 @@
     top: 0;
     left: 0;
     width: 100%;
-    height: 100%;
+    height: 120vh;
     background-color: #f9fafc;
     font-family: 'Oswald', sans-serif;
     background-image: url("../../Assets/img/login_bg.jpg");
-    background-repeat: no-repeat;
+    background-repeat: repeat-y;
     background-size: cover;
-    object-fit: cover;
     font-family: '-apple-system',BlinkMacSystemFont,'Segoe UI',Roboto,Oxygen,Ubuntu,'Fira Sans','Droid Sans','Helvetica Neue',sans-serif;
     .signup__logo__wrapper{
         display: block;

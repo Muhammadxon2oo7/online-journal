@@ -7,7 +7,7 @@ const SingUp = () => {
   return (
     <div className={c.signup__wrapper}>
         <div className={c.signup__logo__wrapper}>
-            <img src={logo} alt="" />
+            <a href="/"><img src={logo} alt="" /></a>
         </div>
         <div className={c.signup__form__wrapper}>
             <div className={c.signup__title}>
