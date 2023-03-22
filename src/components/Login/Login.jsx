@@ -15,9 +15,8 @@ const Login = () => {
                 <p>Login to E-investment</p>
             </div>
             <form action="" className={c.login__from}>
-                <input type="email" className={c.login__form__input__email} placeholder="type your email" required />
-                <input type="password" className={c.login__form__input__email} placeholder="type your password" required />
-                
+                <input id='email' type="email" className={c.login__form__input__email} placeholder="type your email" required />
+                <input id='password' type="password" className={c.login__form__input__email} placeholder="type your password" required />
                 <button type='submit'  className={c.login__submit__btn}>Log in</button>
                 <p className={c.select__login__form__or}>or</p>
                 <a href="#" className={c.login__with__google}>

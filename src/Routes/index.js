@@ -4,6 +4,7 @@ import Home from './Home/Home'
 import Notfound from './Notfound/Notfound'
 import Login from '../components/Login/Login.jsx'
 import SingUp from '../components/SignUp/SingUp.jsx'
+import AdminDashboard from '../components/Admin/AdminDashboard.jsx'
 const index = () => {
   return (
     <Switch>
@@ -15,6 +16,9 @@ const index = () => {
       </Route>
       <Route path='/signup'>
         <SingUp/>
+      </Route>
+      <Route path='/admin'>
+        <AdminDashboard/>
       </Route>
       <Route path='/*'>
         <Notfound />

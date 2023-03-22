@@ -93,34 +93,48 @@
                 border-radius: 10px;
                 display: flex;
                 flex-wrap: wrap;
-                justify-content: space-between;
-                position: relative;
-                textarea{
-                    width: 82%;
-                    max-height: 120px;
-                    min-height: 40px;
+                .post__comment_textare{
+                    width: 50%;
+                    max-height: 60px;
+                    min-height: 60px;
                     padding-left: 20px;
                     border-radius: 10px 10px 10px 10px;
-                    resize: vertical;
+                    resize: none;
                     padding-top: 5px;
                     border: 1px solid rgb(81, 81, 81);
                     outline: none;
+                    display: flex;
+                    margin-right: 4%;
+                    
                     &:focus{
                         border: none;
                         outline: 1px solid dodgerblue;
                     }
                 }
-                button{
-                    position: absolute;
-                    bottom: 10px;
-                    right: 0;
-                    width: 15%;
-                    background-color: dodgerblue;
-                    color: #fff;
-                    border: none;
-                    height: 40px;
-                    border-radius: 10px;
+                .sendBtn__comments{
+                    width: 20%;
+                    // background: #000;
+                    display: flex;
+                    height: 50px;
+                    flex-wrap: wrap;
+                    align-items: start;
+                    .post_sendBtn{
+                        width: 100%;
+                        background-color: dodgerblue;
+                        color: #fff;
+                        border: none;
+                        height: 30px;
+                        border-radius: 10px;
+                    }
+                    p{
+                        cursor: pointer;
+                        margin-bottom: 4px;
+                        &:active{
+                            color: dodgerblue;
+                        }
+                    }
                 }
+                
             }
         }
         
