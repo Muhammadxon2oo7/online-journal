@@ -73,6 +73,33 @@
                 font-family: 'DM Mono', monospace;        
                 margin-bottom: 17px;  
             }
+            .signup__form__input__password__wrapper{
+                width: 95%;
+                height: 40px;
+                outline:1px solid #81B4F6;
+                
+                background-color: #fafbfc;
+                border: none;
+                box-sizing: border-box;
+                border-radius: 3px;  
+                margin-bottom: 17px;  
+                display: flex;
+                input{
+                    border: none;
+                    width: 90%;
+                    height: 100%;
+                    background-color: transparent;
+                    font-family: 'DM Mono', monospace;        
+                    font-size: 14px;
+                    text-indent: 10px;
+                    outline: none;
+                    padding-right: 4px;
+                }
+                img{
+                    width: 7%;
+                    height: 100%;
+                }
+            }
             .signup__submit__btn{
                 width:95%;
                 height: 35px;
